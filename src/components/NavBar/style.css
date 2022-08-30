@@ -12,6 +12,19 @@
     margin-left: 20px;
 }
 
+.navbar-carrito{
+    width: 40px;
+    margin-left: 20px;
+}
+
+.navbar-login-container{
+    display: flex;
+}
+
+.nav-contador{
+    margin-right: 20px;
+}
+
 ul{
     display: flex;
     flex-direction: row;
@@ -47,4 +60,48 @@ ul{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
     text-decoration: none;
+}
+
+
+.Item-Count{
+    background-color:rgb(230, 159, 79) ;
+    font-size: 20px;
+    color: #282c34;
+    border-radius: 5px;
+}
+
+.text-card{
+    padding: 10px;
+}
+
+.btn-card{
+    background-color: #38383a;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.btn-card-btn{
+    background-color: rgba(83, 255, 183, 0.747);
+    border: none;
+    border-radius: 5px;
+    width: 25px;
+    height: 25px;
+}
+
+.btn-agregar{
+    background-color: rgba(83, 255, 183, 0.747);
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height: 25px;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nm-contador{
+    color:rgb(230, 159, 79);
+    font-style: bold;
 }
