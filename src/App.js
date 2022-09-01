@@ -25,7 +25,7 @@ function App() {
           </h3>
           <div className="btn-card">
             <button className="btn-card-btn" onClick={sumar}>+</button>
-            {contador <= 5 ? <div className="nm-contador">{contador}</div> : "sin stock"}
+            {contador <= 5 && contador > -1 ? <div className="nm-contador">{contador}</div> : "sin stock"}
             <button className="btn-card-btn" onClick={restar}>-</button>
           </div>  
           <button className="btn-agregar">Agregar</button>

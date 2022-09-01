@@ -20,7 +20,7 @@ const ItemCount = ({contador}) => {
         </h2>
  {/*        <div className="btn-card">
         <button className="btn-card-btn" onClick={Sumer}>+</button>
-        <div className="nm-contador">{container}</div>
+        {contador <= 5 && contador > -1 ? <div className="nm-contador">{contador}</div> : "sin stock"}
         <button className="btn-card-btn" onClick={restar}>-</button> 
             </div> }         
     </div>

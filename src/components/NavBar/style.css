@@ -81,6 +81,8 @@ ul{
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px 5px 5px 5px;
+    width: 200px;
+    margin: 30px;
 }
 
 .btn-card-btn{
@@ -91,6 +93,10 @@ ul{
     height: 25px;
 }
 
+.btn-card-btn:hover{
+    cursor: pointer;
+}
+
 .btn-agregar{
     background-color: rgba(83, 255, 183, 0.747);
     border: none;
@@ -98,9 +104,13 @@ ul{
     width: 80px;
     height: 25px;
     margin-bottom: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.btn-agregar:hover{
+    cursor: pointer;
+}
+
 .nm-contador{
     color:rgb(230, 159, 79);
     font-style: bold;
