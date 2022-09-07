@@ -11,9 +11,8 @@ function App() {
       <NavBar />
       <header className="App-header">
       <ItemListContainer className="greeting-container" greeting="Tienda de vehículos coleccionables"/>
-      <ItemCount  stock={5} initial={1} onAdd={console.log()} />
-      </header>
-      
+{/*       <ItemCount  stock={5} initial={1} onAdd={console.log()} /> */}
+      </header>      
     </div>
   );
 }

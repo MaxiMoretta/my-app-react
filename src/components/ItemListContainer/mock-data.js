@@ -28,7 +28,7 @@ const data = [
 },
 {
     id : 4,
-    marca : "Greenlight Collectib",
+    marca : "Greenlight",
     modelo : "Custom Shelby GT500 Serie 2.0",
     año : 1967,
     img : 'https://http2.mlstatic.com/D_NQ_NP_868404-MLA45928741519_052021-O.jpg',

@@ -13,6 +13,7 @@ const ItemList = ({itemList}) => {
         año={producto.año}
         img={producto.img}
         precio={producto.precio}
+        stock={producto.stock}
         />);})}
     </>
   )

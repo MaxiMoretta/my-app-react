@@ -81,7 +81,7 @@ ul{
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px 5px 5px 5px;
-    margin: 30px;
+    margin: 10px;
 }
 
 .btn-card-btn{
