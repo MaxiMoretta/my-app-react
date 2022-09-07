@@ -1,5 +1,5 @@
 .navbar-container{
-    background-color: rgb(250, 240, 181);
+    background-color: rgb(216, 214, 203);
     height: 60px;
     display: flex;
     flex-direction: row;
@@ -64,7 +64,7 @@ ul{
 
 
 .Item-Count{
-    background-color:rgb(230, 159, 79) ;
+    background-color:rgb(212, 212, 211) ;
     font-size: 20px;
     color: #282c34;
     border-radius: 5px;
@@ -81,12 +81,11 @@ ul{
     display: flex;
     justify-content: space-evenly;
     border-radius: 5px 5px 5px 5px;
-    width: 200px;
     margin: 30px;
 }
 
 .btn-card-btn{
-    background-color: rgba(83, 255, 183, 0.747);
+    background-color: rgb(230, 191, 66);
     border: none;
     border-radius: 5px;
     width: 25px;
@@ -98,7 +97,7 @@ ul{
 }
 
 .btn-agregar{
-    background-color: rgba(83, 255, 183, 0.747);
+    background-color:  rgb(230, 191, 66);
     border: none;
     border-radius: 5px;
     width: 80px;
