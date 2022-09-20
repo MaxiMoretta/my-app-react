@@ -5,8 +5,8 @@ const ItemList = ({itemList}) => {
     <> 
         {itemList.map((producto) =>  {
         return  (
-        <Item 
-        key={producto.id}
+        <Item
+        id={producto.id}
         nombre={producto.nombre}
         modelo={producto.modelo}
         marca={producto.marca}
@@ -14,9 +14,12 @@ const ItemList = ({itemList}) => {
         img={producto.img}
         precio={producto.precio}
         stock={producto.stock}
+        categoria={producto.categoria}
+        key={producto.id}
         />);})}
     </>
   )
+
 }
 
 export default ItemList

@@ -3,7 +3,7 @@ import '../NavBar/style.css'
 import { useState } from 'react'
 
 
-const ItemCount = ({stock, initial}) => {
+const ItemCount = ({stock, initial, onAdd}) => {
 
      const [contador, setContador] = useState (initial)  
      
@@ -24,7 +24,7 @@ const ItemCount = ({stock, initial}) => {
             {contador <= stock && contador >= initial ? <div className="nm-contador">{contador}</div> : null }
             <button className="btn-card-btn" onClick={restar}>-</button>
           </div>  
-          <button className="btn-agregar">Agregar</button>
+          <button className="btn-agregar" onClick={()=>onAdd(contador)}>Agregar</button>
         </div>
   )
   

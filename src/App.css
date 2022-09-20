@@ -21,7 +21,7 @@
   align-items: center;
   justify-content: center;
   flex-flow: wrap;
-  color: white;
+  padding: 20px;
 }
 
 .App-link {
@@ -39,4 +39,8 @@
 
 .greeting-container{
   margin-bottom: 50px;
+}
+
+.Title-App{
+  margin-block: auto;
 }
